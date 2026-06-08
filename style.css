@@ -1,0 +1,78 @@
+body{
+
+    background: rgb(9, 58, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+
+    width: 360px;
+    padding: 33px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+   
+}
+
+input{
+
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(142, 200, 200);
+    outline: none;
+    font-size: 19px;
+    border-radius: 10px;
+
+}
+
+input:hover{
+    border-color: rgb(89, 149, 149);
+}
+
+button{
+
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4,29,29);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+
+   background-color: rgba(4, 29, 29, 0.93);
+   color:greenyellow;
+}
+
+.text ul{
+
+    position: relative;
+    background-color: rgb(7, 44, 44);
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+    padding: 7px;
+    border-radius: 10px;
+    
+
+}
+.text ul i {
+
+    position: absolute;
+    right: 10px;
+    
+}
+
+.text ul i:hover{
+
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
